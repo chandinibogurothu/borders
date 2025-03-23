@@ -1,0 +1,132 @@
+03/03/25
+***selectors:
+<head>
+<style>
+#first_para{
+    color: "#119";
+    font-size: larger;
+}
+.link{
+    font-size: italic;
+    font-style: small:
+}
+    </style>
+</head>
+<body>
+    <p id="second_para">hello2</p>
+    <p id="third_para">hello3</p>
+    <p id="first_para">hello1</p>
+
+
+
+    <a href="" class="link">products</a>
+    <a href="" class="link">login</a>
+    <a href="" class="link">report</a>
+
+**bookmarks**
+
+<a href="">childhood</a>
+<a href="">teenage</a>
+<a href="">adulthood</a>
+
+<h1>ratan tata</h1>
+<h3>childhood</h3>
+
+<a href="#go to top">go to top</a>
+
+***semantic***
+<header>
+    <h1>chandini inforamtion technology</h1>
+    <nav>
+        <a href="">home</a><a href="">logo</a>
+
+    </nav>
+
+</header>
+
+<section id="mobiles">
+    <article></article>
+</section>
+<section id="laptops">
+    <article></article>
+    <article></article>
+
+
+</section>
+
+***non-semantic***
+--div
+--span
+<div>
+    content1
+</div>
+
+04/03/25
+
+***forms.html
+<body>
+    <form action="">
+        <label for="username">username</label>
+        <input type="text" id="username" autocomplete="off" required value="chandini" readonly  >
+        
+        <label for="password">password</label>
+        <input type="text" id="password">
+
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="enter the email">
+
+        <label for="">number</number>
+        <input type=""  name="" id="number">
+
+        <input type="date" name="" id="">
+
+        <input type="date" name="" id="">
+
+        <label for="groceries"</label>
+        <input type="checkbox" name="" id="groceries" checked>
+
+        <label for="gender">gender</label>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="" value="male">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="" value="female">
+
+        <select name="" id="">
+        <option value="none">none</option>
+        <option value="ssc">ssc</option>
+        <option value="inter">inter</option>
+        <option value="ug">ug</option
+        </select>
+
+        <button type="submit"></button>
+        <button type="reset"></button>
+    </form>
+<textarea name="" id="" cols="150" rows="50"></textarea>      
+
+
+</body>
+</html>
+>..<br></br> is a tag used to break the line
+>..<hr></hr> is a tag which gives horizontal line
+
+05/03/25
+
+***legend tag
+<body>
+    <fieldset>
+        <legend>my name</legend>
+        <h1>Chandini</h1>
+        <h2>vizianagram</h2>
+</fieldset>
+
+</body>
+
+***html entites
+
+<p>
+paragraph tag is represented with &#060
+
+
+
+
+

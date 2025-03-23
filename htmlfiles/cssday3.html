@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: skyblue;
+            display:flex;
+            /*flex-direction: row;*/
+            flex-direction: column;
+            /*flex-direction: row-reverse;
+            flex-direction: column-reverse;*/
+
+        }
+        p{
+           /* color: rgba(200, 150, 255, 120);*/
+           /* color: #00ffff;*/
+           color: hsl(10, 70%, 20%);
+           /*display: inline;*/
+           width: 100px;
+           background-color: crimson;
+          
+        }
+        span{
+            display: block;
+            background-color: darkmagenta;
+            width: 200px;
+        }
+        .item_container{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="item_container">
+    <p id="p1">hello world</p>
+    <p id="p2">hello world</p>
+    <p id="p3">hello world</p>
+    <p id="p4">hello world</p>
+    <p id="p5">hello world</p>
+    <p id="p6">hello world</p>
+    <p id="p7">hello world</p>
+    <span>this is span</span><span>this is span</span><span>this is span</span><span>this is span</span>
+    </div>
+</body>
+</html>
